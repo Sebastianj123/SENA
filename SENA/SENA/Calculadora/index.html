@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+
+    <!-- Icono -->
+    <link rel="icon" href="assets/img/calculate_FILL0_wght400_GRAD0_opsz48.png">
+
+    <!-- Linkeado CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    
+    <!-- Fondo Calculadora -->
+    <div class="cuerpo">
+
+        <!-- Calculadora -->
+        <div class="calculadora">
+
+            <!-- Pantalla calculadora -->
+            <div class="pantalla">
+
+                <!-- Apartado del acumulado -->
+                <div id="acumulado">
+
+                </div>
+
+                <!-- Numeros -->
+                <div id="numeros">
+                        
+
+                </div>
+                
+                <!-- <input type="text" name="screen" id="screen" readonly placeholder="Holap :D"> -->
+
+            </div>
+
+
+            <!-- Caja de botones -->
+            <div class="div-butons">
+                
+                <!-- Botones izquierda -->
+                <div class="left-butons">
+
+                    <!-- Botones de borrar -->
+                    <div class="izquierda erasers">
+                        
+                        <!-- Borrar todo -->
+                        <input type="reset" value="CE" id="eraser-1">
+
+                        <!-- Borrar uno por uno -->
+                        <button id="eraser-2" value="value" class="numero">
+                            <img src="assets/img/row right.png" alt="Borrar" value="value">
+                        </button>
+                        
+                        <!-- <div class="borrarUno numero" id="eraser-2" value="borrar">
+
+                            <img src="assets/img/row right.png" alt="Borrar">
+
+                        </div> -->
+
+                    </div>
+
+                    <!-- Del (7-9) -->
+                    <div class="izquierda 7-9">
+
+                        <!-- Número 7 -->
+                        <input type="button" value="7" id="7" class="numero">
+                        
+                        <!-- Número 8 -->
+                        <input type="button" value="8" id="8" class="numero">
+                        
+                        <!-- Número 9 -->
+                        <input type="button" value="9" id="9" class="numero">
+
+                    </div>
+
+                    <!-- Del (4-6) -->
+
+                    <div class="izquierda 4-6">
+
+                        <!-- Número 4 -->
+                        <input type="button" value="4" id="4" class="numero">
+
+                        <!-- Número 5 -->
+                        <input type="button" value="5" id="5" class="numero">
+
+                        <!-- Número 6 -->
+                        <input type="button" value="6" id="6" class="numero">
+
+                    </div>
+
+                    <!-- Del (1-3) -->
+
+                    <div class="izquierda 1-3">
+
+                        <!-- Número 1 -->
+                        <input type="button" value="1" id="1" class="numero">
+
+                        <!-- Número 2 -->
+                        <input type="button" value="2" id="2" class="numero">
+
+                        <!-- Número 3 -->
+                        <input type="button" value="3" id="3" class="numero">
+
+                    </div>
+
+                    <!-- Del (0, 00 y ,) -->
+
+                    <div class="izquierda 0">
+
+                        <!-- Número 1 -->
+                        <input type="button" value="00" id="doble0" class="numero">
+
+                        <!-- Número 2 -->
+                        <input type="button" value="0" id="cero" class="numero">
+
+                        <!-- Número 3 -->
+                        <input type="button" value="," id="coma" class="numero">
+
+                    </div>
+                </div>
+
+                <!-- Separador de los botones -->
+                <hr>
+
+                <!-- Botones Derechos -->
+                <div class="right-butons">
+
+                    <!-- División -->
+                    <input type="button" value="/" id="dividir" class="operadores numero">
+
+                    <!-- Multiplicación -->
+                    <input type="button" value="*" id="multiplicar" class="operadores numero">
+
+                    <!-- Resta -->
+                    <input type="button" value="-" id="menos" class="operadores numero">
+
+                    <!-- Suma -->
+                    <input type="button" value="+" id="mas" class="operadores numero">
+
+                    <!-- igual -->
+                    <input type="button" value="=" id="igual" class="operadores numero">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+        <!-- linkeado script -->
+        <script src="assets/js/script.js">
+        </script>
+</body>
+</html>

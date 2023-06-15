@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+}
+
+body {
+    background: #000e;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: #00f8;
+    padding: 5vh 4vw;
+    border-radius: 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 30vw;
+    min-height: max-content;
+}
+
+/* titulo */
+h1 {
+    text-align: center;
+    font: bold;
+    font-size: 3.5vw;
+    text-shadow: .2vw .2vw .5vw #44fa;
+}
+
+input {
+    background: #333;
+    padding: 2vh 1vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-shadow: .1vw .1vw .5vw #fff4;
+    border-radius: 3vw;
+}
+
+.fechas {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+input:focus {
+    background-color: #000;
+    color: #fff;
+    text-shadow: .1vw .1vw .5vw #00f;
+    outline: none;
+}
+

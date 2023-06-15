@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contador de vocales</title>
+</head>
+<body>
+  <h1>Contador de vocales</h1>
+ 
+  <script>
+    // Paso 1: Solicitar al usuario que ingrese un texto
+    var texto = prompt("Ingrese un texto:");
+
+    // Paso 2: Inicializar las variables contadoras de cada vocal
+    var vocalA = 0;
+    var vocalE = 0;
+    var vocalI = 0;
+    var vocalO = 0;
+    var vocalU = 0;
+
+    // Paso 3: Recorrer cada carácter del texto
+    for (var i = 0; i < texto.length; i++) {
+      var caracter = texto.charAt(i).toLowerCase();
+      if (caracter === 'a') {
+        vocalA++;
+      } else if (caracter === 'e') {
+        vocalE++;
+      } else if (caracter === 'i') {
+        vocalI++;
+      } else if (caracter === 'o') {
+        vocalO++;
+      } else if (caracter === 'u') {
+        vocalU++;
+      }
+    }
+
+    // Paso 4: Mostrar la cantidad de vocales encontradas
+    document.write("Cantidad de vocales 'a': " + vocalA + "<br>");
+    document.write("Cantidad de vocales 'e': " + vocalE + "<br>");
+    document.write("Cantidad de vocales 'i': " + vocalI + "<br>");
+    document.write("Cantidad de vocales 'o': " + vocalO + "<br>");
+    document.write("Cantidad de vocales 'u': " + vocalU + "<br>");
+  </script>
+</body>
+</html>

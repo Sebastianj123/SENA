@@ -1,0 +1,5 @@
+https://github.com/MikeMcl/decimal.js-light/
+
+Sitio de donde salio aquella libreria
+
+o descargar el archivo comprimido en esta misma carpeta
